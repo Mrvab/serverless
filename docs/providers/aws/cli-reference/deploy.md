@@ -72,3 +72,7 @@ With this example, the packaging step will be skipped and the framework will sta
 ```bash
 SLS_AWS_MONITORING_FREQUENCY=10000 serverless deploy
 ```
+### Command to deploy a function
+```bash
+serverless deploy --aws-profile profileName --function functionName
+```
